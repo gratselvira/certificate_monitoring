@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ldvynIzoVjY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\CertMonitor.Agent\\CertMonitor.Agent.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\.nuget-packages\\pkcs11interop\\5.3.0\\pkcs11interop.5.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

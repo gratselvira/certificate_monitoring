@@ -1,5 +1,6 @@
 using System.Security.Cryptography;
 using System.Text;
+using System.Runtime.Versioning;
 using Microsoft.Win32;
 
 namespace CertMonitor.Agent.Services;
@@ -25,6 +26,7 @@ public sealed class DeviceIdentityService
         return BuildFallbackDeviceUid();
     }
 
+    [SupportedOSPlatform("windows")]
     private static string? TryReadMachineGuid()
     {
         try

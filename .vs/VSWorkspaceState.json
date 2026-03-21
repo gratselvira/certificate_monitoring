@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CertMonitor.Agent"
   ],
+  "SelectedNode": "\\CertMonitor.Agent\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

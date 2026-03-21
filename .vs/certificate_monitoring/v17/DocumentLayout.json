@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\CertMonitor.Agent\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CertMonitor.Agent\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\CertMonitor.Agent\\CertMonitor.Agent.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CertMonitor.Agent\\CertMonitor.Agent.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\CertMonitor.Agent\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CertMonitor.Agent\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
@@ -22,23 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CertMonitor.Agent.csproj",
               "DocumentMoniker": "C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\CertMonitor.Agent\\CertMonitor.Agent.csproj",
               "RelativeDocumentMoniker": "CertMonitor.Agent\\CertMonitor.Agent.csproj",
               "ToolTip": "C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\CertMonitor.Agent\\CertMonitor.Agent.csproj",
               "RelativeToolTip": "CertMonitor.Agent\\CertMonitor.Agent.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswBQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-21T16:28:22.521Z"
+              "WhenOpened": "2026-03-21T16:28:22.521Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\CertMonitor.Agent\\Program.cs",
               "RelativeDocumentMoniker": "CertMonitor.Agent\\Program.cs",
@@ -46,8 +47,7 @@
               "RelativeToolTip": "CertMonitor.Agent\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T16:21:37.58Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-21T16:21:37.58Z"
             },
             {
               "$type": "Document",

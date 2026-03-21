@@ -3,6 +3,6 @@
     "",
     "\\CertMonitor.Agent"
   ],
-  "SelectedNode": "\\CertMonitor.Agent\\CertMonitor.Agent.csproj",
+  "SelectedNode": "\\CertMonitor.Agent\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

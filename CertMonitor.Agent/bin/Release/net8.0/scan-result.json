@@ -1,0 +1,36 @@
+{
+  "workstation": {
+    "deviceUid": "d0f41425-8cf8-4d60-a6ed-518b2a6245e2",
+    "hostname": "DESKTOP-HEK3GH1"
+  },
+  "agent": {
+    "version": "0.1.0\u002Bacecf492acf00eee89101139d64f28510ad89658"
+  },
+  "scanSession": {
+    "sessionUid": "scan-20260321-175002-bef1f9e37df14105b4bee6c091ec04cf",
+    "startedAtUtc": "2026-03-21T17:50:02.3376852Z",
+    "finishedAtUtc": "2026-03-21T17:50:02.6616267Z"
+  },
+  "tokens": [
+    {
+      "serialNumber": "MOCK-TOKEN-001",
+      "tokenType": "Rutoken ECP 3.0 (mock)",
+      "model": "Rutoken ECP 3.0 (mock)",
+      "manufacturer": "Aktiv (mock)",
+      "pkcs11SlotId": "mock-slot-0"
+    }
+  ],
+  "certificates": [
+    {
+      "thumbprint": "A1B2C3D4E5F60718293A4B5C6D7E8F9012345678",
+      "issuer": "CN=Mock Test CA,O=CertMonitor Demo,C=RU",
+      "subject": "CN=Ivan Ivanov,O=CertMonitor Demo,C=RU",
+      "serialNumber": "00A1B2C3D4",
+      "validFromUtc": "2025-01-01T00:00:00Z",
+      "validToUtc": "2027-01-01T00:00:00Z",
+      "algorithm": "RSA",
+      "sourceType": "Rutoken",
+      "tokenSerialNumber": "MOCK-TOKEN-001"
+    }
+  ]
+}

@@ -47,8 +47,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\.nuget-packages": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\.nuget-packages-test2": {}
   },
   "project": {
     "version": "0.1.0",
@@ -56,23 +55,17 @@
       "projectUniqueName": "C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\CertMonitor.Agent\\CertMonitor.Agent.csproj",
       "projectName": "CertMonitor.Agent",
       "projectPath": "C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\CertMonitor.Agent\\CertMonitor.Agent.csproj",
-      "packagesPath": "C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\.nuget-packages",
+      "packagesPath": "C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\.nuget-packages-test2",
       "outputPath": "C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\CertMonitor.Agent\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\NuGet.Config",
-        "C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\.appdata\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\LocalPackages": {}
       },
       "frameworks": {
         "net8.0": {
@@ -120,13 +113,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Произошла ошибка при получении данных уязвимости пакета: Не удалось загрузить индекс службы для источника https://api.nuget.org/v3/index.json."
-    }
-  ]
+  }
 }

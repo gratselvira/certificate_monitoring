@@ -1,6 +1,0 @@
-{
-  "UseMockScanner": true,
-  "Pkcs11LibraryPath": "C:\\Windows\\System32\\rtPKCS11ECP.dll",
-  "OutputJsonEnabled": true,
-  "OutputJsonPath": "scan-result.json"
-}

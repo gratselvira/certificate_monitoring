@@ -3,5 +3,6 @@
     "",
     "\\CertMonitor.Agent"
   ],
+  "SelectedNode": "\\CertMonitor.Agent\\appsettings.json",
   "PreviewInSolutionExplorer": false
 }

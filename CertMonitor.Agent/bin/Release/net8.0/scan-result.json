@@ -4,33 +4,44 @@
     "hostname": "DESKTOP-HEK3GH1"
   },
   "agent": {
-    "version": "0.1.0\u002Bacecf492acf00eee89101139d64f28510ad89658"
+    "version": "0.1.0\u002B3768b0f4b1d44bc5588bbf339ca3f0225b999979"
   },
   "scanSession": {
-    "sessionUid": "scan-20260321-175002-bef1f9e37df14105b4bee6c091ec04cf",
-    "startedAtUtc": "2026-03-21T17:50:02.3376852Z",
-    "finishedAtUtc": "2026-03-21T17:50:02.6616267Z"
+    "sessionUid": "scan-20260321-181506-22a318b90fb9423b9f40783090f0b376",
+    "startedAtUtc": "2026-03-21T18:15:06.1864463Z",
+    "finishedAtUtc": "2026-03-21T18:15:44.1185879Z"
   },
   "tokens": [
     {
-      "serialNumber": "MOCK-TOKEN-001",
-      "tokenType": "Rutoken ECP 3.0 (mock)",
-      "model": "Rutoken ECP 3.0 (mock)",
-      "manufacturer": "Aktiv (mock)",
-      "pkcs11SlotId": "mock-slot-0"
+      "serialNumber": "445c60c3",
+      "tokenType": "Rutoken ECP",
+      "model": "Rutoken ECP",
+      "manufacturer": "Aktiv Co.",
+      "pkcs11SlotId": "0"
     }
   ],
   "certificates": [
     {
-      "thumbprint": "A1B2C3D4E5F60718293A4B5C6D7E8F9012345678",
-      "issuer": "CN=Mock Test CA,O=CertMonitor Demo,C=RU",
-      "subject": "CN=Ivan Ivanov,O=CertMonitor Demo,C=RU",
-      "serialNumber": "00A1B2C3D4",
-      "validFromUtc": "2025-01-01T00:00:00Z",
-      "validToUtc": "2027-01-01T00:00:00Z",
+      "thumbprint": "0ED6C8B7812431B8573E31BD01143CC3866C1155",
+      "issuer": "CN=VTB Group CA 3, O=VTB, C=RU",
+      "subject": "E=EGrac@vtb.ru, CN=\u0413\u0440\u0430\u0446 \u042D\u043B\u044C\u0432\u0438\u0440\u0430 \u0410\u043B\u044C\u0431\u0435\u0440\u0442\u043E\u0432\u043D\u0430 (4122615)",
+      "serialNumber": "5800042F214A7BBD6700C99399000100042F21",
+      "validFromUtc": "2026-02-06T11:46:06Z",
+      "validToUtc": "2027-02-06T11:46:06Z",
       "algorithm": "RSA",
       "sourceType": "Rutoken",
-      "tokenSerialNumber": "MOCK-TOKEN-001"
+      "tokenSerialNumber": "445c60c3"
+    },
+    {
+      "thumbprint": "D11C5E0945D4168E852078443C34A7ECACC8365D",
+      "issuer": "CN=VTB Group CA 3, O=VTB, C=RU",
+      "subject": "E=Grac@dev.vtb.ru, CN=\u0413\u0440\u0430\u0446 \u042D\u043B\u044C\u0432\u0438\u0440\u0430 \u0410\u043B\u044C\u0431\u0435\u0440\u0442\u043E\u0432\u043D\u0430 (4122615)",
+      "serialNumber": "5800042F225FCE766C177D47E6000100042F22",
+      "validFromUtc": "2026-02-06T11:46:08Z",
+      "validToUtc": "2027-02-06T11:46:08Z",
+      "algorithm": "RSA",
+      "sourceType": "Rutoken",
+      "tokenSerialNumber": "445c60c3"
     }
   ]
 }

@@ -1,0 +1,53 @@
+@model IReadOnlyList<ScanSessionListItemViewModel>
+@{
+    ViewData["Title"] = "Scan Sessions";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h1 class="h3 mb-1">Scan Sessions</h1>
+        <p class="text-muted mb-0">История запусков агента и приема payload.</p>
+    </div>
+    <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">@Model.Count</span>
+</div>
+
+<div class="card shadow-sm">
+    <div class="table-responsive">
+        <table class="table table-hover align-middle mb-0">
+            <thead class="table-light">
+                <tr>
+                    <th>Session UID</th>
+                    <th>Started At</th>
+                    <th>Finished At</th>
+                    <th>Status</th>
+                    <th>Tokens Found</th>
+                    <th>Certificates Found</th>
+                    <th>Workstation Hostname</th>
+                </tr>
+            </thead>
+            <tbody>
+            @if (Model.Count == 0)
+            {
+                <tr>
+                    <td colspan="7" class="text-center text-muted py-4">Данных пока нет.</td>
+                </tr>
+            }
+            else
+            {
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td class="text-break">@item.SessionUid</td>
+                        <td>@item.StartedAtUtc.ToString("u")</td>
+                        <td>@item.FinishedAtUtc.ToString("u")</td>
+                        <td>@item.Status</td>
+                        <td>@item.TokensFoundCount</td>
+                        <td>@item.CertificatesFoundCount</td>
+                        <td>@item.WorkstationHostname</td>
+                    </tr>
+                }
+            }
+            </tbody>
+        </table>
+    </div>
+</div>

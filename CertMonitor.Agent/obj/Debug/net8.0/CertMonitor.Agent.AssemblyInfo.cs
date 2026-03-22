@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CertMonitor.Agent")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.1.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1.0+5176fdd99dd5a91986867f9afdca4f33940058ac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1.0+4549e566f154d9876248e2ce299cb27162b7ef03")]
 [assembly: System.Reflection.AssemblyProductAttribute("CertMonitor.Agent")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CertMonitor.Agent")]
 [assembly: System.Reflection.AssemblyVersionAttribute("0.1.0.0")]

@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\CertMonitor.Server\\Services\\ScanIngestionService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CertMonitor.Server\\Services\\ScanIngestionService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\CertMonitor.Server\\Services\\IScanIngestionService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CertMonitor.Server\\Services\\IScanIngestionService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\CertMonitor.Server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CertMonitor.Server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -11,20 +19,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CertMonitor.Server\\Data\\Scripts\\init-postgres.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\CertMonitor.Agent\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CertMonitor.Agent\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\CertMonitor.Agent\\appsettings.json.example||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CertMonitor.Agent\\appsettings.json.example||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\CertMonitor.Agent\\CertMonitor.Agent.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CertMonitor.Agent\\CertMonitor.Agent.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\CertMonitor.Server\\Data\\Scripts\\init-postgres.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CertMonitor.Server\\Data\\Scripts\\init-postgres.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,30 +39,56 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ScanIngestionService.cs",
+              "DocumentMoniker": "C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\CertMonitor.Server\\Services\\ScanIngestionService.cs",
+              "RelativeDocumentMoniker": "CertMonitor.Server\\Services\\ScanIngestionService.cs",
+              "ToolTip": "C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\CertMonitor.Server\\Services\\ScanIngestionService.cs",
+              "RelativeToolTip": "CertMonitor.Server\\Services\\ScanIngestionService.cs",
+              "ViewState": "AgIAAIkBAAAAAAAAAAAgwJkBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T16:13:18.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IScanIngestionService.cs",
+              "DocumentMoniker": "C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\CertMonitor.Server\\Services\\IScanIngestionService.cs",
+              "RelativeDocumentMoniker": "CertMonitor.Server\\Services\\IScanIngestionService.cs",
+              "ToolTip": "C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\CertMonitor.Server\\Services\\IScanIngestionService.cs",
+              "RelativeToolTip": "CertMonitor.Server\\Services\\IScanIngestionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T16:13:14.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\CertMonitor.Server\\appsettings.json",
               "RelativeDocumentMoniker": "CertMonitor.Server\\appsettings.json",
               "ToolTip": "C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\CertMonitor.Server\\appsettings.json",
               "RelativeToolTip": "CertMonitor.Server\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-03-22T10:41:29.16Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "init-postgres.sql ",
+              "DocumentIndex": 3,
+              "Title": "init-postgres.sql",
               "DocumentMoniker": "C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\CertMonitor.Server\\Data\\Scripts\\init-postgres.sql",
               "RelativeDocumentMoniker": "CertMonitor.Server\\Data\\Scripts\\init-postgres.sql",
-              "ToolTip": "init-postgres.sql ",
+              "ToolTip": "C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\CertMonitor.Server\\Data\\Scripts\\init-postgres.sql",
+              "RelativeToolTip": "CertMonitor.Server\\Data\\Scripts\\init-postgres.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-03-22T10:38:57.28Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-22T10:38:57.28Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "appsettings.json.example",
               "DocumentMoniker": "C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\CertMonitor.Agent\\appsettings.json.example",
               "RelativeDocumentMoniker": "CertMonitor.Agent\\appsettings.json.example",
@@ -70,25 +96,11 @@
               "RelativeToolTip": "CertMonitor.Agent\\appsettings.json.example",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-03-22T10:37:18.02Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-22T10:37:18.02Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\CertMonitor.Agent\\appsettings.json",
-              "RelativeDocumentMoniker": "CertMonitor.Agent\\appsettings.json",
-              "ToolTip": "C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\CertMonitor.Agent\\appsettings.json",
-              "RelativeToolTip": "CertMonitor.Agent\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-21T18:13:27.342Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CertMonitor.Agent.csproj",
               "DocumentMoniker": "C:\\Users\\elvira\\source\\repos\\certificate_monitoring\\CertMonitor.Agent\\CertMonitor.Agent.csproj",
               "RelativeDocumentMoniker": "CertMonitor.Agent\\CertMonitor.Agent.csproj",

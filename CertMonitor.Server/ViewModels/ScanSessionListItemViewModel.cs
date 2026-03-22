@@ -15,4 +15,11 @@ public sealed class ScanSessionListItemViewModel
     public int CertificatesFoundCount { get; init; }
 
     public string WorkstationHostname { get; init; } = string.Empty;
+
+    public string StatusDisplay =>
+        Status switch
+        {
+            "Processed" => "Обработано",
+            _ => Status
+        };
 }

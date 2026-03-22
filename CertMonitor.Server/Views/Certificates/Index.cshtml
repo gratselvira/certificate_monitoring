@@ -1,11 +1,11 @@
 @model IReadOnlyList<CertificateListItemViewModel>
 @{
-    ViewData["Title"] = "Certificates";
+    ViewData["Title"] = "Сертификаты";
 }
 
 <div class="d-flex justify-content-between align-items-center mb-4">
     <div>
-        <h1 class="h3 mb-1">Certificates</h1>
+        <h1 class="h3 mb-1">Сертификаты</h1>
         <p class="text-muted mb-0">Список сертификатов, принятых от агента.</p>
     </div>
     <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">@Model.Count</span>
@@ -16,15 +16,15 @@
         <table class="table table-hover align-middle mb-0">
             <thead class="table-light">
                 <tr>
-                    <th>Subject</th>
-                    <th>Issuer</th>
-                    <th>Serial Number</th>
-                    <th>Thumbprint</th>
-                    <th>Valid From</th>
-                    <th>Valid To</th>
-                    <th>Algorithm</th>
-                    <th>Token Serial Number</th>
-                    <th>Last Seen</th>
+                    <th>Владелец (Subject)</th>
+                    <th>Издатель (Issuer)</th>
+                    <th>Серийный номер</th>
+                    <th>Отпечаток</th>
+                    <th>Действует с</th>
+                    <th>Действует до</th>
+                    <th>Алгоритм</th>
+                    <th>Серийный номер токена</th>
+                    <th>Последнее обнаружение</th>
                 </tr>
             </thead>
             <tbody>

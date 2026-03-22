@@ -1,11 +1,11 @@
 @model IReadOnlyList<TokenListItemViewModel>
 @{
-    ViewData["Title"] = "Tokens";
+    ViewData["Title"] = "Токены";
 }
 
 <div class="d-flex justify-content-between align-items-center mb-4">
     <div>
-        <h1 class="h3 mb-1">Tokens</h1>
+        <h1 class="h3 mb-1">Токены</h1>
         <p class="text-muted mb-0">Список найденных Rutoken-носителей.</p>
     </div>
     <span class="badge bg-primary-subtle text-primary-emphasis rounded-pill">@Model.Count</span>
@@ -16,13 +16,13 @@
         <table class="table table-hover align-middle mb-0">
             <thead class="table-light">
                 <tr>
-                    <th>Serial Number</th>
-                    <th>Token Type</th>
-                    <th>Model</th>
-                    <th>Manufacturer</th>
-                    <th>PKCS11 Slot Id</th>
-                    <th>Workstation Hostname</th>
-                    <th>Last Seen</th>
+                    <th>Серийный номер</th>
+                    <th>Тип токена</th>
+                    <th>Модель</th>
+                    <th>Производитель</th>
+                    <th>Идентификатор слота PKCS#11</th>
+                    <th>Имя компьютера</th>
+                    <th>Последнее обнаружение</th>
                 </tr>
             </thead>
             <tbody>

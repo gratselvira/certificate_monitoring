@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CertMonitor.Agent": {
+      "commandName": "Project",
+      "workingDirectory": "$(ProjectDir)"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "workstation": {
+    "deviceUid": "d0f41425-8cf8-4d60-a6ed-518b2a6245e2",
+    "hostname": "DESKTOP-HEK3GH1"
+  },
+  "agent": {
+    "version": "0.1.0\u002B8b2218de28f605e84c358cf548ad2d7aca48b0ad"
+  },
+  "scanSession": {
+    "sessionUid": "scan-20260322-155802-8b77951862c7442fa6e08b2d8be9f29d",
+    "startedAtUtc": "2026-03-22T15:58:02.0598495Z",
+    "finishedAtUtc": "2026-03-22T15:58:02.4437087Z"
+  },
+  "tokens": [
+    {
+      "serialNumber": "445c60c3",
+      "tokenType": "Rutoken ECP",
+      "model": "Rutoken ECP",
+      "manufacturer": "Aktiv Co.",
+      "pkcs11SlotId": "0"
+    }
+  ],
+  "certificates": [
+    {
+      "thumbprint": "0ED6C8B7812431B8573E31BD01143CC3866C1155",
+      "issuer": "CN=VTB Group CA 3, O=VTB, C=RU",
+      "subject": "E=EGrac@vtb.ru, CN=\u0413\u0440\u0430\u0446 \u042D\u043B\u044C\u0432\u0438\u0440\u0430 \u0410\u043B\u044C\u0431\u0435\u0440\u0442\u043E\u0432\u043D\u0430 (4122615)",
+      "serialNumber": "5800042F214A7BBD6700C99399000100042F21",
+      "validFromUtc": "2026-02-06T11:46:06Z",
+      "validToUtc": "2027-02-06T11:46:06Z",
+      "algorithm": "RSA",
+      "sourceType": "Rutoken",
+      "tokenSerialNumber": "445c60c3"
+    },
+    {
+      "thumbprint": "D11C5E0945D4168E852078443C34A7ECACC8365D",
+      "issuer": "CN=VTB Group CA 3, O=VTB, C=RU",
+      "subject": "E=Grac@dev.vtb.ru, CN=\u0413\u0440\u0430\u0446 \u042D\u043B\u044C\u0432\u0438\u0440\u0430 \u0410\u043B\u044C\u0431\u0435\u0440\u0442\u043E\u0432\u043D\u0430 (4122615)",
+      "serialNumber": "5800042F225FCE766C177D47E6000100042F22",
+      "validFromUtc": "2026-02-06T11:46:08Z",
+      "validToUtc": "2027-02-06T11:46:08Z",
+      "algorithm": "RSA",
+      "sourceType": "Rutoken",
+      "tokenSerialNumber": "445c60c3"
+    }
+  ]
+}
